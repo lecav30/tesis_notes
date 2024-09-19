@@ -1,8 +1,10 @@
 # 2. Context / Background / Overview
 
-*Estructura*
-
 >>> Introducción al problema general del aprendizaje de programación
+
+Cheah, C. S. (2020). Factors Contributing to the Difficulties in Teaching and Learning of Computer Programming: A Literature Review. Contemporary Educational Technology, 12(2), ep272. [https://doi.org/10.30935/cedtech/8247](https://doi.org/10.30935/cedtech/8247)  
+
+Berssanette, J. H., & De Francisco, A. C. (2022). Cognitive Load Theory in the Context of Teaching and Learning Computer Programming: A Systematic Literature Review. IEEE Transactions On Education, 65(3), 440-449. [https://doi.org/10.1109/te.2021.3127215](https://doi.org/10.1109/te.2021.3127215)
 
 *Problemática: Dificultades en la curva de aprendizaje durante el desarrollo de un proyecto frontend con React para estudiantes novatos en programación*
 
@@ -10,29 +12,27 @@ El aprendizaje de la programación web supone retos considerables para los estud
 
 Según Berssanette y De Francisco (2022), la enseñanza de la programación web también está limitada por la teoría de la carga cognitiva (Cognitive Load Theory, CLT). Esta teoría argumenta que los estudiantes suelen enfrentarse a una sobrecarga cognitiva debido a la gran cantidad de elementos que deben gestionar simultáneamente, como la sintaxis, los algoritmos, y la interacción entre el frontend y el backend. La falta de un diseño instruccional que considere esta sobrecarga contribuye a que los estudiantes pierdan foco y experimenten dificultades en su aprendizaje. Por otro lado, los estudios coinciden en que es necesario desarrollar herramientas de aprendizaje que no solo sean didácticas, sino que también incorporen elementos multimedia interactivos para facilitar la visualización de los conceptos de programación (Cheah, 2020). Adicionalmente, Berssanette y De Francisco (2022) sugieren que se debe integrar un diseño instruccional basado en la Teoría de la Carga Cognitiva para optimizar el proceso de aprendizaje y reducir el esfuerzo mental innecesario.
 
-Cheah, C. S. (2020). Factors Contributing to the Difficulties in Teaching and Learning of Computer Programming: A Literature Review. Contemporary Educational Technology, 12(2), ep272. [https://doi.org/10.30935/cedtech/8247](https://doi.org/10.30935/cedtech/8247)  
-
-Berssanette, J. H., & De Francisco, A. C. (2022). Cognitive Load Theory in the Context of Teaching and Learning Computer Programming: A Systematic Literature Review. IEEE Transactions On Education, 65(3), 440-449. [https://doi.org/10.1109/te.2021.3127215](https://doi.org/10.1109/te.2021.3127215)  
-
 Berssanette, J. H., & De Francisco, A. C. (2021). Active Learning in the Context of the Teaching/Learning of Computer Programming: A Systematic Review. Journal of Information Technology Education, 20, 201–220. [https://doi.org/10.28945/4767](https://doi.org/10.28945/4767)  **NO USADO**
 
 Sobral, S. R. (2021). Teaching and Learning to Program: Umbrella Review of Introductory Programming in Higher Education. Mathematics, 9(15), 1737. [https://doi.org/10.3390/math9151737](https://doi.org/10.3390/math9151737) **NO USADO**
 
-- Definir hipótesis y conceptos importantes  
+>>> Definir hipótesis y conceptos importantes  
 
-En base a lo anteriormente mencionado se ha optado por diseñar una solución de software que simplifique el abrumador proceso de la programación
+Evangelou, S. M., Fotopoulos, A., Minas, D., & Xenos, M. (2024). _Exploring Computer Engineering Students’ Perceptions When Introduced to Low-Code Platforms: A Study Using Inquiry Methods and Eye-Tracking Data_. https://doi.org/10.1109/educon60312.2024.10578587
+ 
+Talesra, K., & Nagaraja. (2021). Low-code platform for application development. _International journal of applied engineering research_, _16_(5), 346. https://doi.org/10.37622/ijaer/16.5.2021.346-351
 
-Bock, A.C., Frank, U. Low-Code Platform. Bus Inf Syst Eng 63, 733–740 (2021). [https://doi.org/10.1007/s12599-021-00726-8](https://doi.org/10.1007/s12599-021-00726-8)  
+La solución propuesta para abordar las dificultades en la enseñanza y el aprendizaje de la programación web, especialmente en etapas tempranas de la formación, es la introducción de una plataforma de desarrollo de bajo código con enfoque RAD como RapidWebForge. Basada en los beneficios observados en estudios recientes, como los de Cheah (2020) y Berssanette y De Francisco (2022), se hipotetiza que la adopción de un Software Rapid Application en entornos educativos facilitará significativamente el proceso de aprendizaje, reduciendo la carga cognitiva y mejorando la experiencia de los estudiantes.
 
-A. Sahay, A. Indamutsa, D. Di Ruscio and A. Pierantonio, "Supporting the understanding and comparison of low-code development platforms," 2020 46th Euromicro Conference on Software Engineering and Advanced Applications (SEAA), Portoroz, Slovenia, 2020, pp. 171-178, [https://doi.org/10.1109/SEAA51224.2020.00036](https://doi.org/10.1109/SEAA51224.2020.00036)  
+De acuerdo con los estudios que analizan el uso de LCDPs en la educación, como el de Evangelou, Fotopoulos, Minas, y Xenos (2024), los estudiantes que interactúan con plataformas de bajo código por primera vez muestran una rápida comprensión de sus funcionalidades y una experiencia de usuario positiva. A pesar de las dificultades iniciales, como la familiarización con nuevos términos y la localización de funciones, los estudiantes perciben las LCDPs como herramientas efectivas para reducir el tiempo de desarrollo de aplicaciones, lo que sugiere que plataformas como RapidWebForge podrían simplificar la curva de aprendizaje para los estudiantes novatos. Además, el estudio de Talesra y Nagaraja (2021) resalta cómo las LCDPs pueden agilizar el desarrollo de aplicaciones, proporcionando interfaces de usuario intuitivas y funcionalidades preconstruidas que minimizan la dependencia de habilidades de programación avanzadas.
 
-Adrian, B., Hinrichsen, S., Nikolenko, A. (2020). App Development via Low-Code Programming as Part of Modern Industrial Engineering Education. In: Nunes, I. (eds) Advances in Human Factors and Systems Interaction. AHFE 2020. Advances in Intelligent Systems and Computing, vol 1207. Springer, Cham. [https://doi.org/10.1007/978-3-030-51369-6_7](https://doi.org/10.1007/978-3-030-51369-6_7)  
+Bock, A.C., Frank, U. Low-Code Platform. Bus Inf Syst Eng 63, 733–740 (2021). [https://doi.org/10.1007/s12599-021-00726-8](https://doi.org/10.1007/s12599-021-00726-8)  **NO USADO**
 
-S. M. Evangelou, A. Fotopoulos, D. Minas and M. Xenos, "Exploring Computer Engineering Students' Perceptions When Introduced to Low-Code Platforms: A Study Using Inquiry Methods and Eye-Tracking Data," 2024 IEEE Global Engineering Education Conference (EDUCON), Kos Island, Greece, 2024, pp. 1-7, [https://doi.org/10.1109/EDUCON60312.2024.10578587](https://doi.org/10.1109/EDUCON60312.2024.10578587)  
+A. Sahay, A. Indamutsa, D. Di Ruscio and A. Pierantonio, "Supporting the understanding and comparison of low-code development platforms," 2020 46th Euromicro Conference on Software Engineering and Advanced Applications (SEAA), Portoroz, Slovenia, 2020, pp. 171-178, [https://doi.org/10.1109/SEAA51224.2020.00036](https://doi.org/10.1109/SEAA51224.2020.00036)  **NO USADO**
 
-Talesra, K., & S, N. G. (2021). Low-Code Platform for Application Development. International Journal Of Applied Engineering Research, 16(5), 346. [http://ripublication.com/ijaer21/ijaerv16n5_02.pdf](http://ripublication.com/ijaer21/ijaerv16n5_02.pdf)  
+Adrian, B., Hinrichsen, S., Nikolenko, A. (2020). App Development via Low-Code Programming as Part of Modern Industrial Engineering Education. In: Nunes, I. (eds) Advances in Human Factors and Systems Interaction. AHFE 2020. Advances in Intelligent Systems and Computing, vol 1207. Springer, Cham. [https://doi.org/10.1007/978-3-030-51369-6_7](https://doi.org/10.1007/978-3-030-51369-6_7)  **NO USADO**
 
-J. Cabot and R. Clarisó, "Low Code for Smart Software Development," in IEEE Software, vol. 40, no. 1, pp. 89-93, Jan.-Feb. 2023, [https://doi.org/10.1109/MS.2022.3211352](https://doi.org/10.1109/MS.2022.3211352)
+J. Cabot and R. Clarisó, "Low Code for Smart Software Development," in IEEE Software, vol. 40, no. 1, pp. 89-93, Jan.-Feb. 2023, [https://doi.org/10.1109/MS.2022.3211352](https://doi.org/10.1109/MS.2022.3211352) **NO USADO**
 
 # 4. Related Works / Discussion (state of art)
 
