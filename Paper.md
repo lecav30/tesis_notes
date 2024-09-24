@@ -53,4 +53,36 @@ El Kamouchi, H., Kissi, M., & El Beggar, O. (2023). Low-code/No-code Development
 
 El desarrollo con plataformas de bajo código ofrece múltiples beneficios, como la reducción de tiempos de desarrollo y la democratización del proceso de programación. Sin embargo, como lo señalan Elshan et al. (2023), existen varios desafíos que limitan su adopción y uso eficiente, particularmente en pequeñas y medianas empresas (PYMES). Entre estos desafíos se encuentran la dependencia de los operadores de la plataforma, la formación de áreas de TI paralelas no controladas (shadow IT), y la falta de observancia de aspectos legales y de gobernanza debido a un bajo nivel de conocimiento técnico por parte de los usuarios de las plataformas de bajo código. Además, El Kamouchi et al. (2023) destacan limitaciones como el vendor lock-in y el bajo rendimiento en algunas plataformas de bajo código, lo cual afecta la escalabilidad y flexibilidad de las soluciones creadas con estas herramientas. También mencionan que, aunque el enfoque de bajo código ha sido eficaz para aplicaciones web y móviles, los desafíos persisten cuando se trata de aplicaciones más complejas, como aquellas en el ámbito de la salud.
 
+6. Diseño
 
+Chuanjian, C., Shuze, G., & Hua, W. (2023). _Research on Software Development Based on Low-Code Technology_. https://doi.org/10.1109/aiars59518.2023.00049
+
+Hinrichsen, S., Nikolenko, A., Becker, K. L., & Adrian, B. (2023). How to select and implement a suitable Low-Code Development Platform. _AHFE International_. https://doi.org/10.54941/ahfe1004155 
+
+RapidWebForge está diseñado para facilitar el desarrollo web a estudiantes y desarrolladores sin experiencia avanzada en programación. Su enfoque Low-Code permite la creación de aplicaciones web completas mediante una interfaz que automatiza gran parte del proceso técnico a través de herramientas de visualización y componentes modulares (Chuanjian et al., 2023; Hinrichsen et al., 2023).
+
+- Diagrama de Contexto
+
+RapidWebForge interactúa principalmente con estudiantes que actúan como desarrolladores visuales. La plataforma proporciona una interfaz gráfica basada en Qt para que los estudiantes creen aplicaciones web. Los sistemas externos, como MySQL, SQLite, Git y NgInx, juegan un papel clave en la persistencia de datos, control de versiones y despliegue de las aplicaciones de manera local. Este enfoque está alineado con las mejores prácticas para garantizar un ciclo de desarrollo fluido y ágil (Hinrichsen et al., 2023; Chuanjian et al., 2023).
+
+- Diagrama de Contenedores
+
+La arquitectura de RapidWebForge incluye los siguientes contenedores:
+- Aplicación de Escritorio: Proporciona la interfaz gráfica para la creación visual de aplicaciones web.
+- Generador de Código: Emplea Inja para generar automáticamente el código backend (ExpressJS) y frontend (React).
+- Gestor de Proyectos: Gestiona las credenciales y configuraciones de cada proyecto.
+- Gestor de Base de Datos: Gestiona las interacciones con bases de datos como MySQL y SQLite.
+
+Según Hinrichsen et al. (2023), es crucial elegir una plataforma de bajo código que permita integración con sistemas externos y que facilite la automatización de procesos, algo que RapidWebForge logra con la generación automática de código y su integración con bases de datos.
+
+- Flujo de Trabajo del Usuario
+
+El flujo de trabajo en RapidWebForge sigue un proceso simplificado que empieza con la creación de un proyecto en la aplicación de escritorio, luego se configura el frontend y backend de manera visual. Finalmente, la aplicación generada se despliega de manera local empleando NgInx. Según Chuanjian et al. (2023), este enfoque visual y modular es esencial para reducir los tiempos de desarrollo y hacer que la plataforma sea accesible para usuarios con poca experiencia técnica.
+
+- Diagrama Lógico
+
+El Generador de Código de RapidWebForge utiliza Inja para procesar los metadatos y convertirlos en código JavaScript y TypeScript. Este proceso se gestiona automáticamente para asegurar que las aplicaciones puedan interactuar correctamente con bases de datos y otros servicios. Según Chuanjian et al. (2023), el uso de módulos como un diseñador de páginas, modelos de dominio y diseñadores de API es clave para facilitar la creación y despliegue de aplicaciones sin necesidad de escribir código manual.
+
+- Desafíos y Soluciones de Diseño    
+
+Al diseñar RapidWebForge, uno de los principales desafíos fue la integración de varias tecnologías para que trabajen de manera cohesiva sin requerir conocimientos avanzados de los usuarios. Como señalan Chuanjian et al. (2023), las plataformas de bajo código requieren una arquitectura robusta y visual para reducir la complejidad del desarrollo de aplicaciones y facilitar el mantenimiento a largo plazo. Además, Hinrichsen et al. (2023) destacan que una plataforma de bajo código debe permitir una implementación rápida y eficiente, al tiempo que garantiza la flexibilidad en la integración de sistemas externos.
