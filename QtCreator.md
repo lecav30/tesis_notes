@@ -17,8 +17,3 @@ git clone [https://github.com/microsoft/vcpkg.git](https://github.com/microsoft/
 ```sh
 cd vcpkg; .\bootstrap-vcpkg.bat
 ```
-
-  3. Instalar los paquetes:
-```sh
-./vcpkg/vcpkg install
-```

@@ -1,5 +1,5 @@
 # Todo
 
-- [ ] Design format
+- [x] Design format
 - [ ] Complete State of Art
-- [ ] Conclussions & Perspectives
+- [x] Conclussions & Perspectives
